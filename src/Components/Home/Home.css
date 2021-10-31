@@ -1,0 +1,9 @@
+.home-top-banner{
+    background-image: url('../../Images/banner-bg-1.jpg');
+    background-size: cover;
+    padding: 100px 0; 
+}
+.bold-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
