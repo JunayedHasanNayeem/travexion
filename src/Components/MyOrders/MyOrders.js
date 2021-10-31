@@ -30,7 +30,6 @@ const MyOrders = () => {
                 .then(res => res.json())
                 .then(data => {
                     if (data.deletedCount > 0) {
-                        alert('Your order have been successfully deleted')
                         const remainingOrders = myOrders.filter(order => order._id !== id)
                         setMyOrders(remainingOrders)
                     }
